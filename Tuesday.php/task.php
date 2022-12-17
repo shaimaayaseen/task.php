@@ -6,6 +6,7 @@ $color = array('white', 'green', 'red');
 echo"The memory of that scene for me is like a frame of film forever frozen at that moment: the $color[2] carpet, the $color[1] lawn, the $color[0] house, the leaden sky. The new president and his first lady. - Richard M. Nixon";
 
 ?>
+
 <!-- task2 -->
 <?php
 $color = array('white', 'green', 'red');
@@ -44,6 +45,7 @@ $color = array (4 => 'white', 6 => 'green', 11=> 'red');
 
 <!-- task5 -->
 <?php
+
 $shaima = array('1','2','3','4','5');
 echo 'array shaima';  
 foreach ($shaima as $x) 
@@ -251,8 +253,8 @@ echo preg_replace('/the/', 'That', $str, 1)."\n";
 $str1 = 'dragonball';
 $str2 = 'dragonball';
 $str_pos = strspn($str1 ^ $str2, "\0");
-printf('First difference between two strings at position %d: "%s" vs "%s"',
-$str_pos, $str1[$str_pos], $str2[$str_pos]);
+printf('First difference between two strings at position %d: "%s" vs "%s" ',
+[$str_pos], $str1[$str_pos], $str2[$str_pos]);
 printf("\n");
 ?>
 
